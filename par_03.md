@@ -5,7 +5,7 @@ title: §3. Спектральные свойства неотрицательн
 
 
 
-Пусть $$0<\alpha<1$$, тогда мы знаем, что
+Пусть $$0<\alpha<1$$. Тогда мы знаем, что
 
 $$\frac{1}{1-\alpha} = \sum_{k=0}^\infty \alpha^k$$
 
@@ -19,10 +19,8 @@ $$(\rho E - A)^{-1} = \frac{1}{\rho} \left( E - \frac{1}{\rho}A \right)^{-1} \ov
 
 > **Теорема 2.** Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$. Тогда:
 > 
-> 1. Если $$\exists (\rho E - A)^{-1} \geq 0$$, то $$\rho > 0$$ и ряд
-> 
-> $$\sum_{k=0}^{\infty} \frac{1}{\rho^{k+1}}A^k \tag{10}$$ 
-> 
+> 1. Если $$\exists (\rho E - A)^{-1} \geq 0$$, то $$\rho > 0$$ и ряд 
+> $$\sum_{k=0}^{\infty} \frac{1}{\rho^{k+1}}A^k \tag{10}$$  
 > сходится, а его сумма равна $$(\rho E - A)^{-1}$$
 > 
 > 
@@ -62,7 +60,7 @@ $$\vec x = (E-A)^{-1}\vec w = \vec w + A\vec w + A^2 \vec w + \dots$$
 
 
 
-> **Лемма 2.** Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$, $$\lambda (A) = \inf \{ \rho\ \|\ \exists (\rho E - A)^{-1} \}$$. Тогда $$\lambda(A)$$ является собственным числом матрицы $$A$$ и $$\exists \vec x_A \geq 0, \vec x_A \neq 0$$ т.ч. $$A\vec x_A = \lambda(A)\vec x_A$$
+> **Лемма 2.** Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$, $$\lambda (A) = \inf \{ \rho\ \vert\ \exists (\rho E - A)^{-1} \}$$. Тогда $$\lambda(A)$$ является собственным числом матрицы $$A$$ и $$\exists \vec x_A \geq 0, \vec x_A \neq 0$$ т.ч. $$A\vec x_A = \lambda(A)\vec x_A$$
 
 
 
@@ -83,7 +81,7 @@ $$\vec x = (E-A)^{-1}\vec w = \vec w + A\vec w + A^2 \vec w + \dots$$
 > 3. Если $$\vec y \geq 0$$, $$\vec y \neq 0$$ и $$a\vec y \geq \mu\vec y$$, то $$\mu \leq \lambda(A)$$
 > 
 > 
-> 4. Если $$\omega \in \mathbb C$$ и $$\vec z \in \mathbb C^n$$, $$\vec z \neq 0:$$ $$A\vec z = \omega\vec z$$ (т.е. $$\omega$$ — собственное число матрицы $$A$$), то $$\|\omega\| \leq \lambda(A)$$ (т.е. $$\lambda(A)$$ — *спектральный радиус* матрицы $$A$$)
+> 4. Если $$\omega \in \mathbb C$$ и $$\vec z \in \mathbb C^n$$, $$\vec z \neq 0:$$ $$A\vec z = \omega\vec z$$ (т.е. $$\omega$$ — собственное число матрицы $$A$$), то $$\vert\omega\vert \leq \lambda(A)$$ (т.е. $$\lambda(A)$$ — *спектральный радиус* матрицы $$A$$)
 
 
 
