@@ -1,7 +1,5 @@
 # Setup
-title:               Mathematical models in economics
-tagline:             'tagline'
-description:         'description'
+title:               Математические модели в экономике
 url:                 http://lanyon.getpoole.com
 baseurl:             '/econmodels/'
 paginate:            5
