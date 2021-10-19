@@ -62,7 +62,7 @@ $$\vec x = (E-A)^{-1}\vec w = \vec w + A\vec w + A^2 \vec w + \dots$$
 
 
 
-> **Лемма 2.** Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$, $$\lambda (A) = \inf \{ \rho\ |\ \exists (\rho E - A)^{-1} \}$$. Тогда $$\lambda(A)$$ является собственным числом матрицы $$A$$ и $$\exists \vec x_A \geq 0, \vec x_A \neq 0$$ т.ч. $$A\vec x_A = \lambda(A)\vec x_A$$
+> **Лемма 2.** Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$, $$\lambda (A) = \inf \{ \rho\ \|\ \exists (\rho E - A)^{-1} \}$$. Тогда $$\lambda(A)$$ является собственным числом матрицы $$A$$ и $$\exists \vec x_A \geq 0, \vec x_A \neq 0$$ т.ч. $$A\vec x_A = \lambda(A)\vec x_A$$
 
 
 
@@ -72,7 +72,7 @@ $$\vec x = (E-A)^{-1}\vec w = \vec w + A\vec w + A^2 \vec w + \dots$$
 
 > **Теорема 3 (Фробениуса–Перрона)**
 > 
-> Пусть $$A = ||a_{ij}||_{i,j=1}^n \geq 0$$. Тогда:
+> Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$. Тогда:
 > 
 > 1. Среди собственных чисел матрицы $$A$$ есть неотрицательные вещественные числа, и наибольшему из них $$\lambda(A)$$ соответствует неотрицательный собственный вектор $$\vec x_A$$
 > 
@@ -83,7 +83,7 @@ $$\vec x = (E-A)^{-1}\vec w = \vec w + A\vec w + A^2 \vec w + \dots$$
 > 3. Если $$\vec y \geq 0$$, $$\vec y \neq 0$$ и $$a\vec y \geq \mu\vec y$$, то $$\mu \leq \lambda(A)$$
 > 
 > 
-> 4. Если $$\omega \in \mathbb C$$ и $$\vec z \in \mathbb C^n$$, $$\vec z \neq 0:$$ $$A\vec z = \omega\vec z$$ (т.е. $$\omega$$ — собственное число матрицы $$A$$), то $$|\omega| \leq \lambda(A)$$ (т.е. $$\lambda(A)$$ — *спектральный радиус* матрицы $$A$$)
+> 4. Если $$\omega \in \mathbb C$$ и $$\vec z \in \mathbb C^n$$, $$\vec z \neq 0:$$ $$A\vec z = \omega\vec z$$ (т.е. $$\omega$$ — собственное число матрицы $$A$$), то $$\|\omega\| \leq \lambda(A)$$ (т.е. $$\lambda(A)$$ — *спектральный радиус* матрицы $$A$$)
 
 
 
@@ -115,22 +115,22 @@ $$\phantom{\text{(теорема 3)}} \Updownarrow \text{(теорема 3)}$$
 
 $$\frac{1}{s} > \lambda(A)$$
 
-Получаем, что технологическое ограничение на темп роста системы определяется её числом Фробениуса–Перрона
+Получаем, что технологическое ограничение на темп роста системы определяется её числом Фробениуса–Перрона:
 
-$$\boxed{ s < \frac{1}{\lambda(A)} }$$
+$$s < \frac{1}{\lambda(A)}$$
 
 
 ## Свойства числа Фробениуса–Перрона
 
 Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$. Тогда:
 
-1. $$\lambda(A^T) = \lambda(A)$$
+1. $$\lambda(A^T) = \lambda(A)$$ $$ $$
 
 
-2. Если $$\alpha > 0$, то $\lambda(\alpha A) = \alpha \lambda(A)$$
+2. Если $$\alpha > 0$$, то $$\lambda(\alpha A) = \alpha \lambda(A)$$
 
 
-3. $$\lambda(A^t) = (\lambda(A))^t$$
+3. $$\lambda(A^t) = (\lambda(A))^t$$ $$ $$
 
 
 4. Если $$B \geq A \geq 0$$, то $$\lambda(A) \leq \lambda(B)$$
