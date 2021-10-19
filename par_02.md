@@ -18,6 +18,7 @@ d_{11} & \dots & d_{1k} \\
 \vdots & \ddots & \vdots \\
 d_{k1} & \dots & d_{kk}
 \end{Vmatrix} > 0 \quad\quad k=1,\dots,n $$ <br> <br>
+>
 > 4. $$\forall\ 1 \leq i_1 < \dots < i_k \leq n$$ ($$k=1,\dots,n$$) 
 > 
 > $$\det\begin{Vmatrix}
