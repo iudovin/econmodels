@@ -1,7 +1,7 @@
 # Setup
 title:               Математические модели в экономике
-tagline:             'tagline'
-description:         'description'
+tagline:             ''
+description:         ''
 url:                 https://iudovin.github.io
 baseurl:             '/econmodels'
 paginate:            5
