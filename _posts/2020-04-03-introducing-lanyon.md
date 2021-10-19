@@ -3,7 +3,7 @@ layout: post
 title: Introducing Lanyon
 ---
 
-## План лекций
+## 🎓 План лекций
 
 ### 1. Модель межотраслевого баланса
 
@@ -30,4 +30,5 @@ title: Introducing Lanyon
 7. Рассоха А.В., Шананин А.А. *Элементы финансовой математики*
 
 📝 [Конспект курса](https://lib.mipt.ru/book/s/00039075000b9204d757753a4ca9dd0c/Shananin-AA-Matematicheskie-modeli-v-ekonomike.pdf)
+
 🎥 [Видеолекции](https://mipt.ru/online/ekonomika/matmodeli-v-ekonomike.php)
