@@ -12,11 +12,12 @@ title: §2. Продуктивные матрицы
 > 2. $$\forall \vec w \geq 0$$ $$\exists \vec x \geq 0:$$ $$D\vec x = \vec w$$ <br> <br>
 > 
 > 3. *Условия Хокинса-Саймона*: 
-> \\[ \Delta_k = \det\begin{Vmatrix}
-d_{11} & \dots & d_{1k} \\\\
-\vdots & \ddots & \vdots \\\\
+> 
+> $$ \Delta_k = \det\begin{Vmatrix}
+d_{11} & \dots & d_{1k} \\
+\vdots & \ddots & \vdots \\
 d_{k1} & \dots & d_{kk}
-\end{Vmatrix} > 0 \quad\quad k=1,\dots,n \\] <br> <br>
+\end{Vmatrix} > 0 \quad\quad k=1,\dots,n $$ <br> <br>
 > 4. $$\forall\ 1 \leq i_1 < \dots < i_k \leq n$$ ($$k=1,\dots,n$$) 
 > 
 > $$\det\begin{Vmatrix}
