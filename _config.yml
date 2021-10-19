@@ -2,7 +2,7 @@
 title:               Математические модели в экономике
 tagline:             'tagline'
 description:         'description'
-url:                 http://lanyon.getpoole.com
+url:                 https://iudovin.github.io
 baseurl:             '/econmodels'
 paginate:            5
 permalink:           pretty
