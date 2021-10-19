@@ -3,36 +3,31 @@ layout: post
 title: Introducing Lanyon
 ---
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+## План лекций
 
-### Built on Poole
+### 1. Модель межотраслевого баланса
 
-Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by [@mdo](https://twitter.com/mdo). Poole, and every theme built on it (like Lanyon here) includes the following:
+* теория неотрицательных матриц
 
-* Complete Jekyll setup included (layouts, config, [404](/404), [RSS feed](/atom.xml), posts, and [example page](/about))
-* Mobile friendly design and development
-* Easily scalable text and component sizing with `rem` units in the CSS
-* Support for a wide gamut of HTML elements
-* Related posts (time-based, because Jekyll) below each post
-* Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)
+### 2. Экономическая интерпретация двойственности
 
-### Lanyon features
+* теория экстремальных задач
+    - линейное программирование и выпуклые задачи
+    - элементы финансовой математики
+    
+### 3. Теория экономического равновесия
 
-In addition to the features of Poole, Lanyon adds the following:
+* теория неподвижных точек
 
-* Toggleable sliding sidebar (built with only CSS) via **☰** link in top corner
-* Sidebar includes support for textual modules and a dynamically generated navigation with active link support
-* Two orientations for content and sidebar, default (left sidebar) and [reverse](https://github.com/poole/lanyon#reverse-layout) (right sidebar), available via `<body>` classes
-* [Eight optional color schemes](https://github.com/poole/lanyon#themes), available via `<body>` classes
+## 📚 Литература
 
-[Head to the readme](https://github.com/poole/lanyon#readme) to learn more.
+1. Никайдо Х. *Выпуклые структуры и математическая экономика.* https://lib.mipt.ru/book/26770/
+2. Ашманов С.А. *Введение в математическую экономику.* https://lib.mipt.ru/book/282980
+3. Экланд И. *Элементы математической экономики*
+4. Обен Ж.-П. *Прикладной нелинейный анализ*
+5. Мулен Э. *Теория игр с примерами из математической экономики* https://lib.mipt.ru/book/21426
+6. Обросова Н.К., Шананин А.А. *Двойственность в задачах линейного программирования и её экономическая интерпретация*
+7. Рассоха А.В., Шананин А.А. *Элементы финансовой математики*
 
-### Browser support
-
-Lanyon is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
-
-### Download
-
-Lanyon is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/lanyon">GitHub repository</a> for downloads, bug reports, and features requests.
-
-Thanks!
+📝 [Конспект курса](https://lib.mipt.ru/book/s/00039075000b9204d757753a4ca9dd0c/Shananin-AA-Matematicheskie-modeli-v-ekonomike.pdf)
+🎥 [Видеолекции](https://mipt.ru/online/ekonomika/matmodeli-v-ekonomike.php)
