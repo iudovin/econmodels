@@ -1,6 +1,7 @@
 ---
 layout: page
 title: §1. Модель межотраслевого баланса В.В. Леонтьева
+usemathjax: true
 ---
 
 
