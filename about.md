@@ -15,7 +15,8 @@ There are currently two themes built on Poole:
 * [Lanyon](http://lanyon.getpoole.com)
 
 > Learn *more* and **contribute** on [GitHub](https://github.com/poole).
-> what *wat* \(w\cdot a + t\) $$\int w dt = at$$
+> what *wat* \\(w\cdot a + t\\) 
+> \\[\int w dt = at\\]
 > aaaaa
 
 
