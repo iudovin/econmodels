@@ -13,10 +13,10 @@ title: §2. Продуктивные матрицы
 > 
 > 3. *Условия Хокинса-Саймона*: 
 > \\[ \Delta_k = \det\begin{Vmatrix}
-d_{11} & \dots & d_{1k} \\
-\vdots & \ddots & \vdots \\
+d_{11} & \dots & d_{1k} \\\\
+\vdots & \ddots & \vdots \\\\
 d_{k1} & \dots & d_{kk}
-\end{Vmatrix} > 0 \quad\quad k=1,\dots,n \\] </br> <br>
+\end{Vmatrix} > 0 \quad\quad k=1,\dots,n \\] <br> <br>
 > 4. $$\forall\ 1 \leq i_1 < \dots < i_k \leq n$$ ($$k=1,\dots,n$$) 
 > 
 > $$\det\begin{Vmatrix}
@@ -51,7 +51,7 @@ $$1 > a_{11}$$
 > 
 > 8. Все главные миноры матрицы $$D^T$$ положительны <br> <br>
 > 
-> 9. $$\exists D^{-1} \geq 0$$
+> 9. $$\exists D^{-1} \geq 0$$ $$ $$
 
 
 
