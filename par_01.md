@@ -40,7 +40,7 @@ $$ \vec x = A\vec x + \vec w $$
 
 Это уравнение называется *статической моделью Леонтьева*. Смысл модели раскрывается с помощью следующего определения:
 
-<div style="border-left: 5px solid grey; padding-left: 20px; margin: 10px 0">
+<div style="border-left: 5px solid grey; padding-left: 20px; margin: 20px 0">
 
 <b>Определение.</b> Будем говорить, что:
 
@@ -52,9 +52,9 @@ $$ \vec x = A\vec x + \vec w $$
 
 Таким образом, наша цель &mdash; выяснить, существует ли такие $$\vec x \geq 0$$ и $$\vec w > 0$$, что для матрицы $$A \geq 0$$ выполняется уравнение статической модели.
     
-<div style="border-left: 5px solid grey; padding-left: 20px; margin: 10px 0">
+<div style="border-left: 5px solid grey; padding-left: 20px; margin: 20px 0">
 
-**Определение 1.** Будем говорить, что матрица $$A = \| a_{ij} \|_{i,j=1}^n$$ является *продуктивной*, если $$\exists \vec x>0, \vec w > 0 :\ \vec x = A\vec x + \vec w$$
+**Определение 1.** Будем говорить, что матрица \( A = \| a_{ij} \|_{i,j=1}^n \) является *продуктивной*, если \( \exists \vec x>0, \vec w > 0 :\ \vec x = A\vec x + \vec w \)
 
 </div>
 
@@ -68,16 +68,16 @@ $$\vec x(t) = A\vec x(t+1) + \vec w(t+1) \quad\quad t=1,2,\dots$$
 
 *Замечание.* Смысл в том, что продукция, произведённая в текущем периоде времени, может быть использована в следующем временном преиоде.
 
-<div style="border-left: 5px solid grey; padding-left: 20px; margin: 10px 0">
+<div style="border-left: 5px solid grey; padding-left: 20px; margin: 20px 0">
 
-**Определение.** *Режим сбалансированного роста* &mdash; такой режим, при котором зависимости $$\vec x$$ и $$\vec w$$ от $$t$$ имеют вид:
+**Определение.** *Режим сбалансированного роста* &mdash; такой режим, при котором зависимости \( \vec x \) и \( \vec w \) от \(t\) имеют вид:
 
 $$\begin{align}
 \vec x(t) = s^t \hat{\vec x}, & & \hat{\vec x} \geq 0 \\
 \vec w(t) = s^t \hat{\vec w}, & & \hat{\vec w} \geq 0
 \end{align}$$
 
-Число $$s$$ называется *темпом экономического роста*
+Число \(s\) называется *темпом экономического роста*
 
 </div>
 
@@ -93,7 +93,7 @@ $$\left(\frac{1}{s}E-A\right)\hat{\vec x} = \hat{\vec w}$$
 
 Получаем задачу поиска $$\hat{\vec x} \geq 0$$, $$\hat{\vec w} \geq 0:$$ $$D\hat{\vec x} = \hat{\vec w}$$, где $$D=\dfrac{1}{s}E-A$$. Заметим, что если $$D = \| d_{ij} \|_{i,j=1}^n$$, то $$d_{ij} \leq 0$$ при $$i \neq j$$.
 
-<div style="border-left: 5px solid grey; padding-left: 20px; margin: 10px 0">
+<div style="border-left: 5px solid grey; padding-left: 20px; margin: 20px 0">
 
 **Определение 1'.** Будем говорить, что матрица $$D = \| d_{ij} \|_{i,j=1}^n$$, все внедиагональные элементы которой неположительны ($$d_{ij} \leq 0$$ при $$i \neq j$$), является *продуктивной*, если $$\exists \vec x \geq 0 :\ D\vec x > 0$$
 
