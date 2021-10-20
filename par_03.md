@@ -29,7 +29,14 @@ $$ \sum_{k=0}^{\infty} \frac{1}{\rho^{k+1}}A^k \tag{10} $$
 </ul>
 </div>
 
-▶︎ $$\dots$$ ◼︎
+<div>
+<button class="proofbtn"><i>Доказательство</i></button>
+<div class="proof">
+  Очевидно 🙃
+  
+  P.S. Потом сделаю
+</div>
+</div>
 
 
 
@@ -57,7 +64,14 @@ $$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
 
 </div>
 
-▶︎ $$\dots$$ ◼︎
+<div>
+<button class="proofbtn"><i>Доказательство</i></button>
+<div class="proof">
+  Очевидно 🙃
+  
+  P.S. Потом сделаю
+</div>
+</div>
 
 <div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
@@ -65,7 +79,14 @@ $$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
 
 </div>
 
-▶︎ $$\dots$$ ◼︎
+<div>
+<button class="proofbtn"><i>Доказательство</i></button>
+<div class="proof">
+  Очевидно 🙃
+  
+  P.S. Потом сделаю
+</div>
+</div>
 
 <div id="th3" style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
@@ -83,7 +104,14 @@ $$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
 </ol>
 </div>
 
-▶︎ $$\dots$$ ◼︎
+<div>
+<button class="proofbtn"><i>Доказательство</i></button>
+<div class="proof">
+  Очевидно 🙃
+  
+  P.S. Потом сделаю
+</div>
+</div>
 
 
 
@@ -145,4 +173,11 @@ $$s < \frac{1}{\lambda(A)}$$
 
 Критерий продуктивности: $$\lambda(A) < 1$$
 
-▶︎ $$\dots$$ ◼︎
+<div>
+<button class="proofbtn"><i>Доказательство</i></button>
+<div class="proof">
+  Очевидно 🙃
+  
+  P.S. Потом сделаю
+</div>
+</div>
