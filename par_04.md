@@ -49,7 +49,7 @@ $$\exists \hat{\vec x} \geq 0, \hat{\vec x} \neq 0, \hat{\vec x} \ngtr 0, \mu \g
 
 
 
-<div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
+<div id="th4" style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
 <b>Теорема 4.</b> Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\) неразложимая матрица. Тогда <br> <br>
 <ol>
@@ -61,9 +61,10 @@ $$\exists \hat{\vec x} \geq 0, \hat{\vec x} \neq 0, \hat{\vec x} \ngtr 0, \mu \g
 </div>
 
 
-
-*Доказательство.* 
-
+<div>
+<button class="proofbtn"><i>Доказательство</i></button> 
+<div class="proof">
+  
 1. Допустим противное, что $$\vec x_A \ngtr 0$$. По критерию разложимости получается, что $$A$$ разложимая матрица. Противоречие $$\Rightarrow$$ $$\vec x_A > 0$$
 
 $$A \neq 0 \Rightarrow A\vec x_A \neq 0 \Rightarrow \lambda_A \neq 0 \Rightarrow \lambda_A > 0$$
@@ -88,6 +89,8 @@ $$A\vec x(\theta) = A\vec y - \theta A\vec x_A = \lambda_A \vec y - \theta\lambd
 $$А \text{ разложима } \Rightarrow \vec x(\theta) = 0 \Rightarrow \vec y = \theta\vec x_A$$
 
 ◼︎
+</div>
+</div>
 
 <div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
@@ -106,31 +109,19 @@ $$А \text{ разложима } \Rightarrow \vec x(\theta) = 0 \Rightarrow \vec
 </div>
 
 <div>
-  <button class="proofbtn">*Доказательство.* </button>
+  <button class="proofbtn"><i>Доказательство</i></button>
   <div class="proof">
 
-    1. Возьмем вектор Фробениуса-Перрона матрицы $A^T$. Пусть $A^T\vec p_A = \lambda_A \vec p_A$, $\vec p_A > 0$ (по теореме 4), тогда 
+    <ol>
+    <li> Возьмем вектор Фробениуса-Перрона матрицы \(A^T\). Пусть \(A^T\vec p_A = \lambda_A \vec p_A$, $\vec p_A > 0\) (по теореме <a href="#th4">4</a>), тогда 
 
     $$0 < \left<\vec p_A, \rho\vec x - A\vec x\right> = \rho \left<\vec p_A, \vec x\right> - \left<A^T\vec p_A, \vec x\right> = (\rho - \lambda_A)\left<\vec p_A, \vec x\right>$$
 
-    $\left<\vec p_A, \vec x\right> \geq 0$ $\Rightarrow$ $\rho > \lambda_A$
-
-    *остальные утверждения доказываются аналогично*
+    \(\left<\vec p_A, \vec x\right> \geq 0\) \(\Rightarrow\) \(\rho > \lambda_A\) </li>
+    </ol>
+      
+    <i>остальные утверждения доказываются аналогично</i> ◼︎
 
   </div>
 </div>
   
-  
-<div>
-  <button class="proofbtn">Open Collapsible</button>
-
-  <div class="proof">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </div>
-</div>
-    
-UPD1
