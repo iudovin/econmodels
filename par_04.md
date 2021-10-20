@@ -39,7 +39,14 @@ $$\exists \hat{\vec x} \geq 0, \hat{\vec x} \neq 0, \hat{\vec x} \ngtr 0, \mu \g
 
 *Примечание.* Вектор $$\hat{\vec x} \geq 0, \hat{\vec x} \neq 0, \hat{\vec x} \ngtr 0$$ назовем *полуположительным*.
 
-▶︎ $$\dots$$ ◼︎
+<div>
+<button class="proofbtn"><i>Доказательство</i></button>
+<div class="proof">
+  Очевидно 🙃 <br>
+  
+  P.S. Потом сделаю
+</div>
+</div>
 
 <div style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 20px 0">
 
