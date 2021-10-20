@@ -60,26 +60,7 @@
       transition: max-height 0.2s ease-out;
       background-color: #f1f1f1;
     }
-  </style>
-  
-  <script>
-    var coll = document.getElementsByClassName("proofbtn");
-    var i;
-
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.maxHeight){
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        } 
-      });
-    }
-   </script>
-  
-  
+  </style> 
 
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/public/apple-touch-icon-precomposed.png' | absolute_url }}">
   <link rel="shortcut icon" href="{{ '/public/favicon.ico' | absolute_url }}">
