@@ -41,7 +41,7 @@ d_{i_ki_1} & \dots & d_{i_ki_k}
 </div>
 
 <div>
-<button class="proofbtn"><i>Доказательство</i></button>
+<button class="proofbtn">Доказательство</button>
 <div class="proof">
   Очевидно 🙃 <br>
   
@@ -74,7 +74,7 @@ $$1 > a_{11}$$
 </div>
 
 <div>
-<button class="proofbtn"><i>Доказательство</i></button>
+<button class="proofbtn">Доказательство</button>
 <div class="proof">
   Очевидно 🙃 <br>
   
