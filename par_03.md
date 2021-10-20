@@ -30,7 +30,7 @@ $$ \sum_{k=0}^{\infty} \frac{1}{\rho^{k+1}}A^k \tag{10} $$
 </div>
 
 <div>
-<button class="proofbtn"><i>Доказательство</i></button>
+<button class="proofbtn">Доказательство</button>
 <div class="proof">
   Очевидно 🙃 <br>
   
@@ -65,7 +65,7 @@ $$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
 </div>
 
 <div>
-<button class="proofbtn"><i>Доказательство</i></button>
+<button class="proofbtn">Доказательство</button>
 <div class="proof">
   Очевидно 🙃 <br>
   
@@ -80,7 +80,7 @@ $$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
 </div>
 
 <div>
-<button class="proofbtn"><i>Доказательство</i></button>
+<button class="proofbtn">Доказательство</button>
 <div class="proof">
   Очевидно 🙃 <br>
   
@@ -105,7 +105,7 @@ $$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
 </div>
 
 <div>
-<button class="proofbtn"><i>Доказательство</i></button>
+<button class="proofbtn">Доказательство</button>
 <div class="proof">
   Очевидно 🙃 <br>
   
