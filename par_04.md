@@ -64,13 +64,13 @@ $$\exists \hat{\vec x} \geq 0, \hat{\vec x} \neq 0, \hat{\vec x} \ngtr 0, \mu \g
 <div>
 <button class="proofbtn"><i>Доказательство</i></button> 
 <div class="proof">
-  
-1. Допустим противное, что $$\vec x_A \ngtr 0$$. По критерию разложимости получается, что $$A$$ разложимая матрица. Противоречие $$\Rightarrow$$ $$\vec x_A > 0$$
+<ol>
+<li> Допустим противное, что \(\vec x_A \ngtr 0\). По критерию разложимости получается, что \(A\) разложимая матрица. Противоречие \(\Rightarrow\) \(\vec x_A > 0\)
 
-$$A \neq 0 \Rightarrow A\vec x_A \neq 0 \Rightarrow \lambda_A \neq 0 \Rightarrow \lambda_A > 0$$
+$$A \neq 0 \Rightarrow A\vec x_A \neq 0 \Rightarrow \lambda_A \neq 0 \Rightarrow \lambda_A > 0$$ </li> <br>
 
 
-2. Без ограничения общности, считаем, что $$\vec y \in \mathbb R^n$$. Рассмотрим векторы $$\vec x(t) = \vec y - t\vec x_A$$. Хотим выбрать такое $$t$$, чтобы $$\vec x(t)$$ был неотрицательным. Возьмем
+<li> Без ограничения общности, считаем, что \(\vec y \in \mathbb R^n\). Рассмотрим векторы \(\vec x(t) = \vec y - t\vec x_A\). Хотим выбрать такое \(t\), чтобы \(\vec x(t)\) был неотрицательным. Возьмем
 
 $$\min_{1\leq j\leq n} \frac{[\vec y]_j}{[\vec x_A]_j} = \theta$$
 
@@ -80,14 +80,14 @@ $$[\vec x(\theta)]_j \geq 0, \quad j=1,\dots,n$$
 
 $$\Rightarrow \vec x(\theta) \geq 0$$
 
-На некоторых компонентах этот минимум достигается $$\Rightarrow$$ $$x(\theta) \ngtr 0$$.
+На некоторых компонентах этот минимум достигается \(\Rightarrow\) \(x(\theta) \ngtr 0\).
 
 $$A\vec x(\theta) = A\vec y - \theta A\vec x_A = \lambda_A \vec y - \theta\lambda_A\vec x_A = \lambda_A\vec x(\theta)$$
 
-Если $$\vec x_A \neq 0$$, то по критерию разложимости 
+Если \(\vec x_A \neq 0\), то по критерию разложимости 
 
-$$А \text{ разложима } \Rightarrow \vec x(\theta) = 0 \Rightarrow \vec y = \theta\vec x_A$$
-
+$$А \text{ разложима } \Rightarrow \vec x(\theta) = 0 \Rightarrow \vec y = \theta\vec x_A$$ </li>
+</ol>
 ◼︎
 </div>
 </div>
@@ -113,7 +113,7 @@ $$А \text{ разложима } \Rightarrow \vec x(\theta) = 0 \Rightarrow \vec
   <div class="proof">
 
     <ol>
-    <li> Возьмем вектор Фробениуса-Перрона матрицы \(A^T\). Пусть \(A^T\vec p_A = \lambda_A \vec p_A$, $\vec p_A > 0\) (по теореме <a href="#th4">4</a>), тогда 
+    <li> Возьмем вектор Фробениуса-Перрона матрицы \(A^T\). Пусть \(A^T\vec p_A = \lambda_A \vec p_A\), \(\vec p_A > 0\) (по теореме <a href="#th4">4</a>), тогда 
 
     $$0 < \left<\vec p_A, \rho\vec x - A\vec x\right> = \rho \left<\vec p_A, \vec x\right> - \left<A^T\vec p_A, \vec x\right> = (\rho - \lambda_A)\left<\vec p_A, \vec x\right>$$
 
