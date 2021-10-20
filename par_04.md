@@ -105,7 +105,10 @@ $$А \text{ разложима } \Rightarrow \vec x(\theta) = 0 \Rightarrow \vec
 </ol>
 </div>
 
+<button class="proofbtn">
 *Доказательство.* 
+</button>
+<div class="proof">
 
 1. Возьмем вектор Фробениуса-Перрона матрицы $A^T$. Пусть $A^T\vec p_A = \lambda_A \vec p_A$, $\vec p_A > 0$ (по теореме 4), тогда 
 
@@ -115,4 +118,4 @@ $\left<\vec p_A, \vec x\right> \geq 0$ $\Rightarrow$ $\rho > \lambda_A$
 
 *остальные утверждения доказываются аналогично*
 
-◼︎
+</div>
