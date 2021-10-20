@@ -5,11 +5,6 @@ title: §5. Устойчивые матрицы
 
 
 
-<ul style="list-style-type: none; margin-bottom: 40px; padding: 0">
-  <li><a href="../par_04" style="float: left">◀︎ §4</a></li>
-  <li><a href="../par_06" style="float: right">§6 ▶︎</a></li>
-</ul>
-
 
 <div style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 20px 0">
 
@@ -295,8 +290,3 @@ $$\vec p(t+1) = A\vec p(t)$$
 *Упражнение.* Доказать, что из (<a href="#eq-aa">✻✻</a>) следует $$\lambda(A) = 1$$
   
   
-
-<ul style="list-style-type: none; margin-top: 20px; padding: 0">
-  <li><a href="../par_04" style="float: left">◀︎ §4</a></li>
-  <li><a href="../par_06" style="float: right">§6 ▶︎</a></li>
-</ul>
