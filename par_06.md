@@ -5,7 +5,7 @@ title: §6. Идемпотентные аналоги теорем о неотр
 
 
 
-<ul style="list-style-type:none">
+<ul style="list-style-type: none; margin-top: 20px">
 <li> <a href="#sec6-1">6.1 Модель баланса знаний Канторовича–Макарова</a> </li>
 <li> <a href="#sec6-2">6.2 Арбитражные цепочки на валютном рынке</a> </li>
 <li> <a href="#sec6-3">6.3 Экономические индексы</a> </li>
