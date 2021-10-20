@@ -224,9 +224,9 @@ $$\Rightarrow \underset{t\to\infty}\lim A^t = B$$
 
 <p><b>Определение 5.</b> Будем говорить, что неразложимая матрица \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\) допускает <u>циклическое разложение</u>, если существуют непустые множества \(G_0, G_1, \dots, G_{s-1}\) (\(s \geq 2\)) т.ч.  </p>
 <ol>
-<li> \(N = \{1, \dots, n\} = \cup_{k=0}^{s-1} G_k\) <br>
+<li> \(N = \{1, \dots, n\} = \cup_{k=0}^{s-1} G_k\) </li> <br>
 
-<li> \(G_k \cap G_l = \varnothing\) при \(k \neq l\) <br>
+<li> \(G_k \cap G_l = \varnothing\) при \(k \neq l\) </li> <br>
 
 <li> Если \(j \in G_k$, $a_{ij} > 0\), то \(i \in G_{(k+1)\mod s}\)
 </ol>
