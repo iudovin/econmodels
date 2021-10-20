@@ -15,7 +15,7 @@ $$(E-A)^{-1} \overset{?}{=} \sum_{k=0}^{\infty} A^k$$
 
 $$(\rho E - A)^{-1} = \frac{1}{\rho} \left( E - \frac{1}{\rho}A \right)^{-1} \overset{?}{=} \sum_{k=0}^{\infty} \frac{1}{\rho^{k+1}} A^k$$
 
-<div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
+<div id="th2" style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
 <b>Теорема 2.</b> Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\). Тогда: <br> <br>
 <ul>
@@ -37,7 +37,7 @@ $$ \sum_{k=0}^{\infty} \frac{1}{\rho^{k+1}}A^k \tag{10} $$
 
 $$\vec x = A\vec x + \vec w$$
 
-Если $$A$$ продуктивна, то по теореме 2 
+Если $$A$$ продуктивна, то по теореме <a href="#th2">2</a> 
 
 $$\vec x = (E-A)^{-1}\vec w = \vec w + A\vec w + A^2 \vec w + \dots$$
 
@@ -69,7 +69,7 @@ $$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
 
 <div id="th3" style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
-<b>Теорема 3 (Фробениуса–Перрона)</b>
+<b>Теорема 3 (Фробениуса–Перрона)</b> <br>
 
 Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\). Тогда: <br> <br>
 <ol>
