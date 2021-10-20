@@ -69,7 +69,7 @@ $$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
 
 <div id="th3" style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
-<b>Теорема 3 (Фробениуса–Перрона)</b> <br>
+<b>Теорема 3 (Фробениуса–Перрона)</b> <br> <br>
 
 Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\). Тогда: <br> <br>
 <ol>
