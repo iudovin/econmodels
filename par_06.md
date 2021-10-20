@@ -403,3 +403,7 @@ $$G(\vec X)\cdot q(\vec p) \leq \vec p\cdot\vec X$$
 </div>
 
 
+<ul style="list-style-type: none; margin-top: 20px">
+  <li><a href="../par05" style="float: left">◀︎ §5</a></li>
+  <li><a href="#" style="float: right">§7 ▶︎</a></li>
+</ul>
