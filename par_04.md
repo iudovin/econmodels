@@ -105,21 +105,20 @@ $$А \text{ разложима } \Rightarrow \vec x(\theta) = 0 \Rightarrow \vec
 </ol>
 </div>
 
-<button class="proofbtn">
-*Доказательство.* 
-</button>
-<div class="proof">
+<div>
+  <button class="proofbtn">*Доказательство.* </button>
+  <div class="proof">
 
-1. Возьмем вектор Фробениуса-Перрона матрицы $A^T$. Пусть $A^T\vec p_A = \lambda_A \vec p_A$, $\vec p_A > 0$ (по теореме 4), тогда 
+    1. Возьмем вектор Фробениуса-Перрона матрицы $A^T$. Пусть $A^T\vec p_A = \lambda_A \vec p_A$, $\vec p_A > 0$ (по теореме 4), тогда 
 
-$$0 < \left<\vec p_A, \rho\vec x - A\vec x\right> = \rho \left<\vec p_A, \vec x\right> - \left<A^T\vec p_A, \vec x\right> = (\rho - \lambda_A)\left<\vec p_A, \vec x\right>$$
+    $$0 < \left<\vec p_A, \rho\vec x - A\vec x\right> = \rho \left<\vec p_A, \vec x\right> - \left<A^T\vec p_A, \vec x\right> = (\rho - \lambda_A)\left<\vec p_A, \vec x\right>$$
 
-$\left<\vec p_A, \vec x\right> \geq 0$ $\Rightarrow$ $\rho > \lambda_A$
+    $\left<\vec p_A, \vec x\right> \geq 0$ $\Rightarrow$ $\rho > \lambda_A$
 
-*остальные утверждения доказываются аналогично*
+    *остальные утверждения доказываются аналогично*
 
+  </div>
 </div>
-  
   
   
   
