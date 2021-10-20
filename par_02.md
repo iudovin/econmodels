@@ -6,7 +6,7 @@ title: §2. Продуктивные матрицы
 
 Вспомним определение продуктивной матрицы из <a href="../par_01">§1</a>.
 
-<div style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 10px 0">
+<div style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 20px 0">
 
 <b>Определение 1'.</b> Будем говорить, что матрица \(D = \| d_{ij} \|_{i,j=1}^n\), все внедиагональные элементы которой неположительны (\(d_{ij} \leq 0\) при \(i \neq j\)), является <u>продуктивной</u>, если \(\exists \vec x \geq 0 :\ D\vec x > 0\)
 
@@ -14,9 +14,9 @@ title: §2. Продуктивные матрицы
 
 Теперь сформулируем две теоремы.
 
-<div id="th1" style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 10px 0">
+<div id="th1" style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
-<b>Теорема 1.</b> Пусть \(D = \|d_{ij}\|_{i,j=1}^n\), \(d_{ij} \leq 0\) при \(i \neq j\). Тогда следующие свойства эквивалентны:
+<b>Теорема 1.</b> Пусть \(D = \|d_{ij}\|_{i,j=1}^n\), \(d_{ij} \leq 0\) при \(i \neq j\). Тогда следующие свойства эквивалентны: <br>
 <ol>
 <li> \(\exists \vec x \geq 0:\) \(D\vec x > 0\) </li> <br>
  
@@ -50,9 +50,9 @@ $$x = a_{11} + w \quad \Leftrightarrow \quad (1-a_{11})x = w$$
 
 $$1 > a_{11}$$
 
-<div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 10px 0">
+<div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
-<b>Теорема 1'.</b> К свойствам 1&ndash;4 теоремы <a href="#th1">1</a> можно добавить следующие:
+<b>Теорема 1'.</b> К свойствам 1&ndash;4 теоремы <a href="#th1">1</a> можно добавить следующие: <br>
 <ol start="5">
 <li> \(\exists \vec p \geq 0:\) \(D^T\vec p > 0\) </li> <br>
  
