@@ -40,7 +40,7 @@ $$\exists \hat{\vec x} \geq 0, \hat{\vec x} \neq 0, \hat{\vec x} \ngtr 0, \mu \g
 *Примечание.* Вектор $$\hat{\vec x} \geq 0, \hat{\vec x} \neq 0, \hat{\vec x} \ngtr 0$$ назовем *полуположительным*.
 
 <div>
-<button class="proofbtn"><i>Доказательство</i></button>
+<button class="proofbtn">Доказательство</button>
 <div class="proof">
   Очевидно 🙃 <br>
   
@@ -69,7 +69,7 @@ $$\exists \hat{\vec x} \geq 0, \hat{\vec x} \neq 0, \hat{\vec x} \ngtr 0, \mu \g
 
 
 <div>
-<button class="proofbtn"><i>Доказательство</i></button> 
+<button class="proofbtn">Доказательство</button> 
 <div class="proof">
 <ol>
 <li> Допустим противное, что \(\vec x_A \ngtr 0\). По критерию разложимости получается, что \(A\) разложимая матрица. Противоречие \(\Rightarrow\) \(\vec x_A > 0\)
@@ -116,19 +116,19 @@ $$А \text{ разложима } \Rightarrow \vec x(\theta) = 0 \Rightarrow \vec
 </div>
 
 <div>
-  <button class="proofbtn"><i>Доказательство</i></button>
-  <div class="proof">
+<button class="proofbtn">Доказательство</button>
+<div class="proof">
 
-    <ol>
-    <li> Возьмем вектор Фробениуса-Перрона матрицы \(A^T\). Пусть \(A^T\vec p_A = \lambda_A \vec p_A\), \(\vec p_A > 0\) (по теореме <a href="#th4">4</a>), тогда 
+  <ol>
+  <li> Возьмем вектор Фробениуса-Перрона матрицы \(A^T\). Пусть \(A^T\vec p_A = \lambda_A \vec p_A\), \(\vec p_A > 0\) (по теореме <a href="#th4">4</a>), тогда 
 
-    $$0 < \left<\vec p_A, \rho\vec x - A\vec x\right> = \rho \left<\vec p_A, \vec x\right> - \left<A^T\vec p_A, \vec x\right> = (\rho - \lambda_A)\left<\vec p_A, \vec x\right>$$
+  $$0 < \left<\vec p_A, \rho\vec x - A\vec x\right> = \rho \left<\vec p_A, \vec x\right> - \left<A^T\vec p_A, \vec x\right> = (\rho - \lambda_A)\left<\vec p_A, \vec x\right>$$
 
-    \(\left<\vec p_A, \vec x\right> \geq 0\) \(\Rightarrow\) \(\rho > \lambda_A\) </li>
-    </ol>
-      
-    <i>остальные утверждения доказываются аналогично</i> ◼︎
+  \(\left<\vec p_A, \vec x\right> \geq 0\) \(\Rightarrow\) \(\rho > \lambda_A\) </li>
+  </ol>
 
-  </div>
+  <i>остальные утверждения доказываются аналогично</i> ◼︎
+
+</div>
 </div>
   
