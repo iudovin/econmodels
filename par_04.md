@@ -5,7 +5,7 @@ title: §4. Неразложимые матрицы
 
 
 
-<div style="border: 1px solid LimeGreen; border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 10px 0">
+<div style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 10px 0">
 
 <b>Определение 3.</b> Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\). Будем называть матрицу \(A\) <u>неразложимой</u>, если существует собственное подмножество \(J\) множества\(N = \{1, \dots, n\}\) (\(J \neq \emptyset, N\)), такое, что \(a_{ij} = 0\), если \(i \notin J\), \(j \in J\)
 
@@ -27,7 +27,7 @@ O & A_{22}
 
 
 
-<div style="border: 1px solid DodgerBlue; border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 10px 0">
+<div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 10px 0">
 
 <b>Теорема (Критерий разложимости неотрицательной матрицы)</b>
 
@@ -41,7 +41,7 @@ $$\exists \hat{\vec x} \geq 0, \hat{\vec x} \neq 0, \hat{\vec x} \ngtr 0, \mu \g
 
 ▶︎ $$\dots$$ ◼︎
 
-<div style="border: 1px solid LimeGreen; border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 10px 0">
+<div style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 10px 0">
 
 <b>Определение 3'.</b> Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\). Будем говорить, что матрица \(A\) является <u>неразложимой</u>, если она не является разложимой или нулевой матрицей 1-го порядка.
 
