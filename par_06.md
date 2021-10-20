@@ -3,12 +3,12 @@ layout: page
 title: §6. Идемпотентные аналоги теорем о неотрицательных матрицах
 ---
 
-<ul style="list-style-type: none; margin-bottom: 20px; padding: 0">
+<ul style="list-style-type: none; width: 100%; margin: 20px 0; padding: 0">
   <li><a href="../par_05" style="float: left">◀︎ §5</a></li>
   <li><a href="#" style="float: right">§7 ▶︎</a></li>
 </ul>
 
-<ul style="list-style-type: none; margin-top: 40px">
+<ul style="list-style-type: none; margin-top: 20px">
 <li> <a href="#sec6-1">6.1 Модель баланса знаний Канторовича–Макарова</a> </li>
 <li> <a href="#sec6-2">6.2 Арбитражные цепочки на валютном рынке</a> </li>
 <li> <a href="#sec6-3">6.3 Экономические индексы</a> </li>
@@ -406,7 +406,7 @@ $$G(\vec X)\cdot q(\vec p) \leq \vec p\cdot\vec X$$
 </div>
 
 
-<ul style="list-style-type: none; margin-top: 20px; padding: 0">
+<ul style="list-style-type: none; width: 100%; margin: 20px 0; padding: 0">
   <li><a href="../par_05" style="float: left">◀︎ §5</a></li>
   <li><a href="#" style="float: right">§7 ▶︎</a></li>
 </ul>
