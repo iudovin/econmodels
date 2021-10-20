@@ -58,7 +58,7 @@ $$ \vec x = A\vec x + \vec w $$
 
 Таким образом, наша цель &mdash; выяснить, существует ли такие $$\vec x \geq 0$$ и $$\vec w > 0$$, что для матрицы $$A \geq 0$$ выполняется уравнение статической модели.
     
-<div style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 10px 0">
+<div id="def1" style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 10px 0">
 
 <b>Определение 1.</b> Будем говорить, что матрица \(A = \| a_{ij} \|_{i,j=1}^n\) является <u>продуктивной</u>, если \(\exists \vec x>0, \vec w > 0 :\ \vec x = A\vec x + \vec w\)
 
@@ -99,10 +99,10 @@ $$\left(\frac{1}{s}E-A\right)\hat{\vec x} = \hat{\vec w}$$
 
 Получаем задачу поиска $$\hat{\vec x} \geq 0$$, $$\hat{\vec w} \geq 0:$$ $$D\hat{\vec x} = \hat{\vec w}$$, где $$D=\dfrac{1}{s}E-A$$. Заметим, что если $$D = \| d_{ij} \|_{i,j=1}^n$$, то $$d_{ij} \leq 0$$ при $$i \neq j$$.
 
-<div style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 10px 0">
+<div id="def1s" style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 10px 0">
 
 <b>Определение 1'.</b> Будем говорить, что матрица \(D = \| d_{ij} \|_{i,j=1}^n\), все внедиагональные элементы которой неположительны (\(d_{ij} \leq 0\) при \(i \neq j\)), является <u>продуктивной</u>, если \(\exists \vec x \geq 0 :\ D\vec x > 0\)
 
 </div>
 
-*Примечание.* Определения 1 и 1' согласованы для матриц $$A$$, $$D:$$ $$D=E-A$$.
+*Примечание.* Определения <a href="#def1">1</a> и <a href="#def1s">1'</a> согласованы для матриц $$A$$, $$D:$$ $$D=E-A$$.
