@@ -15,18 +15,19 @@ $$(E-A)^{-1} \overset{?}{=} \sum_{k=0}^{\infty} A^k$$
 
 $$(\rho E - A)^{-1} = \frac{1}{\rho} \left( E - \frac{1}{\rho}A \right)^{-1} \overset{?}{=} \sum_{k=0}^{\infty} \frac{1}{\rho^{k+1}} A^k$$
 
+<div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
+<b>Теорема 2.</b> Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\). Тогда: <br> <br>
+<ul>
+<li> Если \(\exists (\rho E - A)^{-1} \geq 0\), то \(\rho > 0\) и ряд 
+<p id="eq10">
+$$ \sum_{k=0}^{\infty} \frac{1}{\rho^{k+1}}A^k \tag{10} $$
+</p>
+сходится, а его сумма равна \((\rho E - A)^{-1}\) </li> <br>
 
-> **Теорема 2.** Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$. Тогда:
-> 
-> 1. Если $$\exists (\rho E - A)^{-1} \geq 0$$, то $$\rho > 0$$ и ряд 
-> \\[ \sum_{k=0}^{\infty} \frac{1}{\rho^{k+1}}A^k \tag{10} \\]  
-> сходится, а его сумма равна $$(\rho E - A)^{-1}$$ <br> <br>
-> 
-> 
-> 2. Если $$\rho > 0$$ и ряд (10) сходится, то $$\exists (\rho E - A)^{-1} \geq 0$$
-
-
+<li> Если \(\rho > 0\) и ряд (<a href="#eq10">10</a>) сходится, то \(\exists (\rho E - A)^{-1} \geq 0\) </li>
+</ul>
+</div>
 
 ▶︎ $$\dots$$ ◼︎
 
@@ -46,47 +47,41 @@ $$\vec x = (E-A)^{-1}\vec w = \vec w + A\vec w + A^2 \vec w + \dots$$
 
 
 
+<div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
+<b>Лемма 1.</b> Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\). Обозначим 
 
-> **Лемма 1.** Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$. Обозначим 
-> 
-> $$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
-> 
-> Тогда $$M(A) = (\lambda(A), +\infty)$$, где $$\lambda (A) \geq 0$$
+$$M(A) := \{ \rho\ |\ \exists (\rho E - A)^{-1} \geq 0 \}$$
 
+Тогда \(M(A) = (\lambda(A), +\infty)\), где \(\lambda (A) \geq 0\)
 
-
-▶︎ $$\dots$$ ◼︎
-
-
-
-> **Лемма 2.** Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$, $$\lambda (A) = \inf \{ \rho\ \vert\ \exists (\rho E - A)^{-1} \}$$. Тогда $$\lambda(A)$$ является собственным числом матрицы $$A$$ и $$\exists \vec x_A \geq 0, \vec x_A \neq 0$$ т.ч. $$A\vec x_A = \lambda(A)\vec x_A$$
-
-
+</div>
 
 ▶︎ $$\dots$$ ◼︎
 
+<div style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
 
+<b>Лемма 2.</b> Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\), \(\lambda (A) = \inf \{ \rho\ \vert\ \exists (\rho E - A)^{-1} \}\). Тогда \(\lambda(A)\) является собственным числом матрицы \(A\) и \(\exists \vec x_A \geq 0, \vec x_A \neq 0\) т.ч. \(A\vec x_A = \lambda(A)\vec x_A\)
 
-> **Теорема 3 (Фробениуса–Перрона)**
-> 
-> Пусть $$A = \|a_{ij}\|_{i,j=1}^n \geq 0$$. Тогда:
-> 
-> 1. Среди собственных чисел матрицы $$A$$ есть неотрицательные вещественные числа, и наибольшему из них $$\lambda(A)$$ соответствует неотрицательный собственный вектор $$\vec x_A$$ <br> <br>
-> 
-> 
->
-> 2. Матрица $$(\rho E - A)$$ неотрицательно обратима (т.е. $$\exists (\rho E - A)^{-1}$$) $$\Leftrightarrow$$ $$\rho > \lambda(A)$$ <br> <br>
->
-> 
->
-> 3. Если $$\vec y \geq 0$$, $$\vec y \neq 0$$ и $$a\vec y \geq \mu\vec y$$, то $$\mu \leq \lambda(A)$$ <br> <br>
->
-> 
->
-> 4. Если $$\omega \in \mathbb C$$ и $$\vec z \in \mathbb C^n$$, $$\vec z \neq 0:$$ $$A\vec z = \omega\vec z$$ (т.е. $$\omega$$ — собственное число матрицы $$A$$), то $$\vert\omega\vert \leq \lambda(A)$$ (т.е. $$\lambda(A)$$ — *спектральный радиус* матрицы $$A$$)
+</div>
 
+▶︎ $$\dots$$ ◼︎
 
+<div id="th3" style="border-left: 5px solid DodgerBlue; padding: 10px 20px; margin: 20px 0">
+
+<b>Теорема 3 (Фробениуса–Перрона)</b>
+
+Пусть \(A = \|a_{ij}\|_{i,j=1}^n \geq 0\). Тогда: <br> <br>
+<ol>
+<li> Среди собственных чисел матрицы \(A\) есть неотрицательные вещественные числа, и наибольшему из них \(\lambda(A)\) соответствует неотрицательный собственный вектор \(\vec x_A\) </li> <br>
+
+<li> Матрица \((\rho E - A)\) неотрицательно обратима (т.е. \(\exists (\rho E - A)^{-1}\)) \(\Leftrightarrow\) \(\rho > \lambda(A)\) </li> <br>
+
+<li> Если \(\vec y \geq 0\), \(\vec y \neq 0\) и \(A\vec y \geq \mu\vec y\), то \(\mu \leq \lambda(A)\) </li> <br>
+
+<li> Если \(\omega \in \mathbb C\) и \(\vec z \in \mathbb C^n\), \(\vec z \neq 0:\) \(A\vec z = \omega\vec z\) (т.е. \(\omega\) — собственное число матрицы \(A\)), то \(|\omega| \leq \lambda(A)\) (т.е. \(\lambda(A)\) — <i>спектральный радиус</i> матрицы \(A\)) </li>
+</ol>
+</div>
 
 ▶︎ $$\dots$$ ◼︎
 
@@ -94,11 +89,11 @@ $$\vec x = (E-A)^{-1}\vec w = \vec w + A\vec w + A^2 \vec w + \dots$$
 
 Теорема Фробениуса–Перрона позволяет дать следующее определение.
 
+<div style="border-left: 5px solid LimeGreen; padding: 10px 20px; margin: 20px 0">
 
+<b>Определение.</b> Будем называть \(\lambda(A)\) в условии теоремы <a href="#th3">3</a> <u>числом Фробениуса–Перрона</u> матрицы \(A\), а \(\vec x_A\) — <u>вектором Фробениуса–Перрона</u> матрицы \(A\).
 
-> **Определение.** Будем называть $$\lambda(A)$$ в условии теоремы 3 *числом Фробениуса–Перрона* матрицы $$A$$, а $$\vec x_A$$ — *вектором Фробениуса–Перрона* матрицы $$A$$.
-
-
+</div>
 
 *Замечание.* Простейшая динамическая модель Леонтьева 
 
